@@ -3,53 +3,57 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.playing_field {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
 .wgs {
-    display: inline-block;
-	height: 400px;
-	width: 500px;
+	display: inline-block;
+	height: 200px;
+	width: 250px;
 	position: relative;
 	background-color: red;
 	overflow: hidden;
 }
 .wgs__mole-head {
-    width: 300px;
-    position: absolute;
-    margin: 0 auto;
-    left:17%;
+	width: 150px;
+	position: absolute;
+	margin: 0 auto;
+	left: 10%;
 	transition: margin-top 0.25s;
 }
-.wgs__mole-head--hidden{
-	margin-top: 400px;
-
+.wgs__mole-head--hidden {
+	margin-top: 200px;
 }
 .wgs__dirt-pile {
-    height: 200px;
-    width: 500px;
-    position: absolute;
-    bottom: 0;
+	height: 100px;
+	width: 250px;
+	position: absolute;
+	bottom: 0;
 }
 
-/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
-  background-color: cornflowerblue;
-  border-bottom: 1px solid #645DED;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  color: white;
-  display: flex;
-  font-size: 30px;
-  margin-bottom: 50px;
-  padding: 10px 20px;
-} */
+.sb {
+	background-color: cornflowerblue;
+	border-bottom: 1px solid #645ded;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	color: white;
+	display: flex;
+	font-size: 30px;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+}
 
-/* .sb__mole-counter {
-  flex: 1 0 0;
-  text-align: right;
-} */
+.sb__mole-counter {
+	flex: 1 0 0;
+	text-align: right;
+}
 
-/* .sb__score-holder {
-  flex: 1 0 0;
-} */
+.sb__score-holder {
+	flex: 1 0 0;
+}
 
-/* .sb__game-over--hidden {
-  display: none;
-} */
+.sb__game-over--hidden {
+	display: none;
+}
