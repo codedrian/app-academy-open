@@ -9,12 +9,17 @@
 	width: 500px;
 	position: relative;
 	background-color: red;
+	overflow: hidden;
 }
 .wgs_mole-head {
     width: 300px;
     position: absolute;
     margin: 0 auto;
     left:17%;
+	transition: margin-top 0.25s;
+}
+.wgs__mole-head--hidden{
+	margin-top: 400px;
 
 }
 .wgs_dirt-pile {
