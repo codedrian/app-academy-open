@@ -11,7 +11,7 @@
 	background-color: red;
 	overflow: hidden;
 }
-.wgs_mole-head {
+.wgs__mole-head {
     width: 300px;
     position: absolute;
     margin: 0 auto;
@@ -22,7 +22,7 @@
 	margin-top: 400px;
 
 }
-.wgs_dirt-pile {
+.wgs__dirt-pile {
     height: 200px;
     width: 500px;
     position: absolute;
